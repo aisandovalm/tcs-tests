@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>163</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+        
+      <MixedMode>1</MixedMode><CodeCovEnabled>0</CodeCovEnabled><CodeCovShow>0</CodeCovShow></Disassembly>
+      <Debug-Log/>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>723</ColumnWidth1><ColumnWidth2>193</ColumnWidth2><ColumnWidth3>48</ColumnWidth3></Build>
+      <Watch>
+        <Format>
+          <struct_types/>
+          <watch_formats/>
+        </Format>
+        
+        
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch>
+      <Register/>
+    </Static>
+    <Windows>
+      
+      
+      
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15837-19749</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>USB</ExpandedNode><ExpandedNode>USB/USB</ExpandedNode><ExpandedNode>USB/USB/hid_enumerate.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4566-19756</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-15315-19759</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31607-4289</Identity>
+            <TabName>Register</TabName>
+            <Factory>Register</Factory>
+            <Session>
+              
+              
+              
+              
+            <REG1>0</REG1><REG2>0</REG2><Group>18</Group><States>3</States><State0>ADC_CHER</State0><State1>ADC_CHSR</State1><State2>UDP_ISR</State2></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\AT91SAM7S-BasicMouseUSB\src\hid_enumerate.c</Filename><XPos>0</XPos><YPos>154</YPos><SelStart>5907</SelStart><SelEnd>5907</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\AT91SAM7S-BasicMouseUSB\src\hid_enumerate.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>983</SelStart><SelEnd>1003</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\include\AT91SAM7S64.h</Filename><XPos>0</XPos><YPos>1809</YPos><SelStart>138203</SelStart><SelEnd>138218</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\AT91SAM7S-BasicMouseUSB\src\main.c</Filename><XPos>0</XPos><YPos>374</YPos><SelStart>11631</SelStart><SelEnd>11631</SelEnd></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\include\lib_AT91SAM7S64.h</Filename><XPos>0</XPos><YPos>1361</YPos><SelStart>54704</SelStart><SelEnd>54718</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\include\AT91SAM7S64_inc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\AT91SAM7S-BasicMouseUSB\compil\SrcIAR\Cstartup_SAM7.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>1624</SelStart><SelEnd>1624</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\AT91SAM7S-BasicMouseUSB\compil\SrcIAR\Board.h</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>926</SelStart><SelEnd>949</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\user\My Documents\BOARD\ATSAM7_ACCELERATOR\ATMEL_USB_MOUSE\AT91SAM7S-BasicMouseUSB\compil\SrcIAR\Cstartup.s79</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-008ee7c0><key>iaridepm1</key></Toolbar-008ee7c0></Sizes></Row0><Row1><Sizes><Toolbar-01c56818><key>debuggergui1</key></Toolbar-01c56818></Sizes></Row1></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>764</Bottom><Right>237</Right><x>-2</x><y>-2</y><xscreen>105</xscreen><yscreen>114</yscreen><sizeHorzCX>82031</sizeHorzCX><sizeHorzCY>120763</sizeHorzCY><sizeVertCX>186719</sizeVertCX><sizeVertCY>811441</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>764</Bottom><Right>469</Right><x>-2</x><y>-2</y><xscreen>147</xscreen><yscreen>161</yscreen><sizeHorzCX>114844</sizeHorzCX><sizeHorzCY>170551</sizeHorzCY><sizeVertCX>367969</sizeVertCX><sizeVertCY>811441</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>112</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>114</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>120763</sizeHorzCY><sizeVertCX>82031</sizeVertCX><sizeVertCY>120763</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
