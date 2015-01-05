@@ -127,23 +127,23 @@
 //         Headers
 //------------------------------------------------------------------------------
 
-#include <../at91lib/boards/at91sam7s-ek/board.h>
-#include <pio/pio.h>
-#include <pio/pio_it.h>
+#include "boards/board.h"
+#include "pio/pio.h"
+#include "pio/pio_it.h"
 #if defined(cortexm3)
-#include <systick/systick.h>
+#include "systick/systick.h"
 #else
-#include <pit/pit.h>
+#include "pit/pit.h"
 #endif
-#include <pmc/pmc.h>
-#include <irq/irq.h>
-#include <utility/trace.h>
-#include <utility/led.h>
-#include <usb/device/core/USBD.h>
-#include <usb/common/core/USBConfigurationDescriptor.h>
-#include <usb/device/hid-mouse/HIDDMouseDriver.h>
+#include "pmc/pmc.h"
+#include "irq/irq.h"
+#include "utility/trace.h"
+#include "utility/led.h"
+#include "usb/device/core/USBD.h"
+#include "usb/common/core/USBConfigurationDescriptor.h"
+#include "usb/device/hid-mouse/HIDDMouseDriver.h"
 
-#include <string.h>
+#include "string.h"
 
 // +++ SPP Old main +++
 
