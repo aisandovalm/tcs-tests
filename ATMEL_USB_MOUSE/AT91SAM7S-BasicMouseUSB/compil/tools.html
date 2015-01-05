@@ -1,0 +1,352 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./tools_files/filelist.xml">
+<link rel=Edit-Time-Data href="./tools_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>AT91 Simple project for Evaluation Board</title>
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>110</w:Zoom>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{margin-right:0cm;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1030"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-GB link=blue vlink=blue style='tab-interval:36.0pt'>
+<div class=Section1> 
+  <p><!--[if gte vml 1]><v:shapetype id="_x0000_t202" coordsize="21600,21600"
+ o:spt="202" path="m0,0l0,21600,21600,21600,21600,0xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t202" style='position:absolute;
+ margin-left:32.55pt;margin-top:-2.05pt;width:396pt;height:36pt;z-index:1'/><![endif]--><![if !vml]><span
+style='mso-ignore:vglayout;position:relative;z-index:0'><span style='position:
+absolute;left:43px;top:-3px;width:531px;height:51px'> 
+    <table cellpadding=0 cellspacing=0>
+      <tr> 
+        <td width=531 height=51 align=left valign=top bgcolor=white style='border:
+  .75pt solid black;vertical-align:top;background:white'><![endif]><![if !mso]><span
+  style='position:absolute;z-index:1'> 
+          <table cellpadding=0 cellspacing=0 width="100%">
+            <tr> 
+              <td><![endif]> 
+                <div v:shape="_x0000_s1026" style='padding:3.6pt 7.2pt 3.6pt 7.2pt'
+    class=shape> 
+                  <p align=center style='text-align:center'><b><span style='font-size:18.0pt;
+    mso-bidi-font-size:13.5pt;font-family:Arial;color:#FF6600'>IAR 4.11A Compilation 
+                    <o:p></o:p></span></b></p>
+                  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+                </div>
+                <![if !mso]></td>
+            </tr>
+          </table>
+          </span><![endif]><![if !mso & !vml]>&nbsp;<![endif]><![if !vml]></td>
+      </tr>
+    </table>
+    </span></span><![endif]><span style='mso-bidi-font-size:10.0pt'>&nbsp;<o:p></o:p></span></p>
+  <p><b><i><span style='font-family:Arial'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></i></b></p>
+  <p><b><i><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:
+Arial'>Introduction<o:p></o:p></span></i></b></p>
+  <p><span style='mso-bidi-font-size:10.0pt'>The goal of this demonstration project 
+    is to describe the IAR compilation with an AT91-based target <o:p></o:p></span></p>
+  <h2><span style='font-size:14.0pt;mso-bidi-font-size:18.0pt'>Cross compiling 
+    using IAR 4.11A <o:p></o:p></span></h2>
+  <p class=MsoNormal><span style='layout-grid-mode:line'>A default IAR project 
+    (Workspace) <b>.eww</b> file is delivered with this example (in <b>compil</b> 
+    directory).<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='layout-grid-mode:line'>The processor selected 
+    must be ARM7tm for compiler and assembler.<o:p></o:p></span></p>
+  <h2><span style='font-size:14.0pt;mso-bidi-font-size:18.0pt'>Compilation <o:p></o:p></span></h2>
+  <p><span lang=EN-US style='mso-hansi-font-family:Symbol'>·</span><span
+lang=EN-US> </span><span style='mso-bidi-font-size:10.0pt'>Open the IAR Embedded 
+    Workbench IDE <o:p></o:p></span></p>
+  <p><span lang=EN-US style='mso-bidi-font-size:10.0pt;mso-hansi-font-family:
+Symbol'>·</span><span style='mso-bidi-font-size:10.0pt'> In the &quot;Embedded 
+    Workbench Startup&quot; window, select &quot;Open existing workspace&quot; 
+    and open the project file from the directory compil/xxx.eww <o:p></o:p></span></p>
+  <p><span lang=EN-US style='mso-bidi-font-size:10.0pt;mso-hansi-font-family:
+Symbol'>·</span><span style='mso-bidi-font-size:10.0pt'> Build the project <o:p></o:p></span></p>
+</div>
+<blockquote> 
+  <div class=Section1> 
+    <p><span style='mso-bidi-font-size:10.0pt'>In the &quot;Workspace&quot; window, 
+      select the Cstartup tab to generate the library used by the Basic application. 
+      This library uses only the initialisation files for the AT91. Build this 
+      library using the &quot;Make&quot;<o:p> command.</o:p></span></p>
+  </div>
+  <div class=Section1> 
+    <p><span style='mso-bidi-font-size:10.0pt'>In the &quot;Workspace&quot; window, 
+      select the Basic tab project to debug the Basic application using a JTAG 
+      ICE interface (e.i. J-Link). This application includes the Cstartup libary 
+      just generated and uses the specific linker file which describes the memory 
+      mapping. Build this application using the &quot;Make&quot; command.<o:p></o:p></span><span style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </div>
+</blockquote>
+<div class=Section1> 
+  <p><span lang=EN-US style='mso-bidi-font-size:10.0pt;mso-hansi-font-family:
+Symbol'>·</span><span style='mso-bidi-font-size:10.0pt'> Connect to the target 
+    board with a JTAG ICE interface<o:p></o:p></span></p>
+</div>
+<blockquote>
+  <div class=Section1>
+    <p><span style='mso-bidi-font-size:10.0pt'>The JTAG ICE interface can be selected 
+      from the menu &quot;Project -&gt; Options&quot;, category &quot;Debugger&quot; 
+      and select your ICE interface (e.i. J-Link) in the setup tab.</span></p>
+    <span style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></div>
+</blockquote>
+<div class=Section1> 
+  <p><span lang=EN-US style='mso-bidi-font-size:10.0pt;mso-hansi-font-family:
+Symbol'>·</span><span style='mso-bidi-font-size:10.0pt'> Load and debug this application 
+    <o:p></o:p>using the &quot;Debug&quot; command</span></p>
+  <p><b><i><span style='font-family:Arial'>IAR Workspace <o:p></o:p></span></i></b></p>
+  <table border=1 cellspacing=1 cellpadding=0 width=555 style='width:416.25pt;
+ mso-cellspacing:.7pt;mso-padding-alt:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <tr> 
+      <td width="35%" valign=top style='width:35.04%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Debug</span></i></p>
+      </td>
+      <td width="64%" valign=top style='width:64.46%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Cstartup Library generation</span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="35%" valign=top style='width:35.04%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>RAM_Debug </span></i></p>
+      </td>
+      <td width="64%" valign=top style='width:64.46%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p>RAM application for debug</p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="35%" valign=top style='width:35.04%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Flash Debug</span></i></p>
+      </td>
+      <td width="64%" valign=top style='width:64.46%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Flash application for debug 
+          to be loaded using the IAR utility </span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="35%" valign=top style='width:35.04%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Flash Bin</span></i></p>
+      </td>
+      <td width="64%" valign=top style='width:64.46%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Flash application with a binary 
+          output to be loaded using the Tools workspace (Semihosting)</span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="35%" valign=top style='width:35.04%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Tools<o:p></o:p></span></i></p>
+      </td>
+      <td width="64%" valign=top style='width:64.46%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Standalone application to load 
+          a binary file using the SemiHosting<o:p></o:p></span></p>
+      </td>
+    </tr>
+  </table>
+  <p><b><i><span style='font-family:Arial'><span style="mso-spacerun:
+yes"> </span></span></i></b><b><i><span lang=FR style='font-family:Arial;
+mso-ansi-language:FR'>Compilation files<o:p></o:p></span></i></b></p>
+  <table border=1 cellspacing=1 cellpadding=0 width=555 style='width:416.25pt;
+ mso-cellspacing:.7pt;mso-padding-alt:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Basic.eww</span></i></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+        <p><span style='mso-bidi-font-size:10.0pt'>IAR main project file (Workspace)</span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Basic.ewp</span></i></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>IAR workbench project file</span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>Cstartup_xxxx.ewp</span></i></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Cstartup file</span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>resource/</span></i></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><b><span style='mso-bidi-font-size:10.0pt'>Project resource files directory</span></b><span
+  style='mso-bidi-font-size:10.0pt'> </span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span style='mso-bidi-font-size:10.0pt'>resource/at91_lnk_Flash.xcl<o:p></o:p></span></i></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Linker file for the Flash application 
+          which defines the memory mapping and sections for the target board<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>resource/at91_lnk_ram.xcl<o:p></o:p></span></i></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Linker file for the RAM application 
+          which defines the memory mapping and sections for the target board<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>resource/Ebxxx.mac&gt;</span></i><span
+  lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Script file for setting the 
+          processor before to download and to debug the RAM application using 
+          a JTAG ICE interface<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>resource/Ebxxx_Flash.mac</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Script file for setting the 
+          processor before to download and to debug the Flash application using 
+          a JTAG ICE interface<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>SrcIAR/</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><b><span style='mso-bidi-font-size:10.0pt'>Specific source code directory</span></b><span style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>SrcIAR/Cstartup.s79</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Cstartup code which includes 
+          the reference for INTRAMSTART_REMAP define in linker file<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>SrcIAR/Cstartup_xxxx.c</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><span style='mso-bidi-font-size:10.0pt'>Cstartup code Linked in ARM 
+          mode (32bits) <o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>Tools/</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><b><span style='mso-bidi-font-size:10.0pt'>If present, it includes 
+          the flash up-loader (Semihosting)</span></b><span style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>settings/</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><b><span style='mso-bidi-font-size:10.0pt'>IAR Setting directory</span></b><span
+  style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>Debug/</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><b><span style='mso-bidi-font-size:10.0pt'>IAR object and list directory 
+          </span></b><span
+  style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="33%" valign=top style='width:33.82%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><i><span lang=DE style='mso-bidi-font-size:10.0pt;mso-ansi-language:DE'>Flash/</span></i><span
+  lang=DE style='mso-ansi-language:DE'><o:p></o:p></span></p>
+      </td>
+      <td width="65%" valign=top style='width:65.66%;padding:5.25pt 5.25pt 5.25pt 5.25pt'> 
+        <p><b><span style='mso-bidi-font-size:10.0pt'>IAR object and list directory 
+          for the Flash application</span></b><span style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+      </td>
+    </tr>
+  </table>
+  <h2><span style='font-size:12.0pt;mso-bidi-font-size:18.0pt'><o:p></o:p></span></h2>
+</div>
+
+</body>
+
+</html>
