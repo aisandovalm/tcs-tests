@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\MouseDemo.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s128_flash</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s128_sram</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s256_flash</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s256_sram</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s321_flash</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s512_flash</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s512_sram</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s64_flash</configuration>
+      </member>
+      <member>
+        <project>at91sam7s-ek</project>
+        <configuration>at91sam7s64_sram</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
